@@ -24,5 +24,5 @@ I platformen har man et område hvor man kan lægge _skabeloner_ op. Skabeloner 
 
 Skabelonerne kan derved genbruges til at lave breve og flyers flere gange, og alle på kontoret har altid adgang til de nyeste filer.
 
-![](.gitbook/assets/skabeloner.png)
+![](<.gitbook/assets/skabeloner (1).png>)
 

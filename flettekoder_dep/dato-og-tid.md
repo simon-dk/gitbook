@@ -1,5 +1,9 @@
 # Dato og tid
 
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
+
 ## Der kan flettes informationer om tid ind i brevet
 
 ```fsharp
@@ -26,7 +30,7 @@ Hvis I ønsker en form for tidsbegrænset tilbud, kan I også bruge koderne:
 ```
 
 {% hint style="info" %}
-Koderne {{1mdr}} mfl. tillægger antallet af måneder med den dato brevet genereres fra. På den måde kan I lave et tidsbegrænset tilbud der f.eks. løber to måneder fra den nuværende dato.
+Koderne \{{1mdr\}} mfl. tillægger antallet af måneder med den dato brevet genereres fra. På den måde kan I lave et tidsbegrænset tilbud der f.eks. løber to måneder fra den nuværende dato.
 {% endhint %}
 
 ```aspnet

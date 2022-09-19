@@ -1,5 +1,9 @@
 # Udbudsoplysninger
 
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
+
 ## Brug oplysninger om det aktuelle udbud
 
 Vi indhenter oplysninger om udbuddet som kan bruges i forskellige sammenhænge.&#x20;
@@ -28,9 +32,9 @@ Vælger I at benytte firmanavnet hos den mægler der har boligen udbudt, bliver 
 
 ### Prisudvikling
 
-Vi har to flettekoder for prisudvikling, en normal {{prisudvikling}} og en {{prisudvikling\_neutral}}.&#x20;
+Vi har to flettekoder for prisudvikling, en normal \{{prisudvikling\}} og en \{{prisudvikling\_neutral\}}.&#x20;
 
-Ved {{prisudvikling}} skrives den samlede udvikling afrundet til nærmeste hele procentsats. Er udviklingen negativ skrives et minustegn foran.
+Ved \{{prisudvikling\}} skrives den samlede udvikling afrundet til nærmeste hele procentsats. Er udviklingen negativ skrives et minustegn foran.
 
 ```javascript
 Boligen er justeret med {{prisudvikling}}. // Boligen er justeret med -3%.
@@ -43,6 +47,6 @@ Jeg kan se at {{du}} har sat prisen ned med {{prisudvikling_neutral}}
 //Jeg kan se at I har sat prisen ned med 3%.
 ```
 
-I den situation kan man bruge {{prisudvikling\_neutral}} da der ellers kan komme til at stå "..I har sat prisen ned med -3%" som vil være forkert.
+I den situation kan man bruge \{{prisudvikling\_neutral\}} da der ellers kan komme til at stå "..I har sat prisen ned med -3%" som vil være forkert.
 
-Begge flettekoder kan med fordel bruges i kombination med [avancerede flettefelter](avancerede-flettekoder.md) og koden {{#afslag}}, så teksten kun vises hvis der reelt har været et afslag.
+Begge flettekoder kan med fordel bruges i kombination med [avancerede flettefelter](avancerede-flettekoder.md) og koden \{{#afslag\}}, så teksten kun vises hvis der reelt har været et afslag.

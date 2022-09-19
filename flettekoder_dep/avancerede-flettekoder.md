@@ -1,5 +1,9 @@
 # Avancerede flettekoder
 
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
+
 ## Avancerede flettekoder giver flere muligheder
 
 Disse flettekoder er sværere at bruge da man skal tage højde for flere forskellige udfald. Vi hjælper gerne til med at formulerer budskaberne så der ikke opstår fejl i brevene.
@@ -13,7 +17,7 @@ De avancerede flettekoder ser anderledes ud end normale flettekoder. Herunder er
 // Denne tekst kommer med, hvis der har været prisafslag!
 ```
 
-Så i stedet for et enkelt ord inden i en tuborg, så har man nu en start tuborg {{#START}} og en slut tuborg {{/SLUT}}.
+Så i stedet for et enkelt ord inden i en tuborg, så har man nu en start tuborg \{{#START\}} og en slut tuborg \{{/SLUT\}}.
 
 Al teksten imellem kommer med, inklusive linjeskift mv.
 
@@ -81,7 +85,7 @@ har været udbudt ved mere end 1 mægler.{{/skiftetMaegler}}
 
 ### Bland normale flettekoder ind i avancerede flettekoder
 
-En af de smarte funktioner ved avancerede flettekoder er, at man kan indsætte _normale_ flettekoder inden i. Så man kan stadig har {{du}} osv. i sine tekster som genereres af avancerede flettekoder.
+En af de smarte funktioner ved avancerede flettekoder er, at man kan indsætte _normale_ flettekoder inden i. Så man kan stadig har \{{du\}} osv. i sine tekster som genereres af avancerede flettekoder.
 
 ```javascript
 Jeg har bemærket at {{din/dit}} {{boligtype}} 
@@ -102,9 +106,9 @@ måske overvejer du nu hvad der så skal ske..
 
 ### Dødsbo / ikke dødsbo
 
-Som udgangspunkt frasorterer vi breve hvis ejeren er afdød, men i situationer hvor man ønsker alligevel at sende et brev, f.eks. til de efterladte, kan det gøres ved at bruge flettekode {{#doedsbo}} {{/doedsbo}}.&#x20;
+Som udgangspunkt frasorterer vi breve hvis ejeren er afdød, men i situationer hvor man ønsker alligevel at sende et brev, f.eks. til de efterladte, kan det gøres ved at bruge flettekode \{{#doedsbo\}} \{{/doedsbo\}}.&#x20;
 
-Man laver reelt to hele breve i samme skabelon og samler hvert brev med hhv. {{#doedsbo}} og {{#ikke\_doedsbo}}. På den måde kommer det korrekte brev frem alt efter situationen.
+Man laver reelt to hele breve i samme skabelon og samler hvert brev med hhv. \{{#doedsbo\}} og \{{#ikke\_doedsbo\}}. På den måde kommer det korrekte brev frem alt efter situationen.
 
 ```javascript
 {{#ikke_doedsbo}}Heri skrives hele ens normale brev

@@ -1,11 +1,15 @@
 # Du, din, dig..
 
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
+
 ## Brug den korrekte tiltale
 
 For at undgå statiske og upersonlige breve, er det vigtigt at modtageren får en fornemmelse af at det er skrevet lige præcis til dem. Det kan bl.a. gøres ved at tage højde for om der er en eller flere modtagere.
 
 {% hint style="info" %}
-Alle flettekoder målrettet modtageren skrives i enkeltform, {{du}} og med stort eller småt alt efter om det er i begyndelsen af en tekst eller ej.
+Alle flettekoder målrettet modtageren skrives i enkeltform, \{{du\}} og med stort eller småt alt efter om det er i begyndelsen af en tekst eller ej.
 {% endhint %}
 
 ```javascript
@@ -48,10 +52,10 @@ Jeg har bemærket at {{din}} {{boligtype}}..
 ```
 
 {% hint style="info" %}
-I situation nummer 2 skrives teksten forkert fordi {{din}} ikke længere er den rigtige tiltale når der er en enkelt sælger og boligtypen er et rækkehus.&#x20;
+I situation nummer 2 skrives teksten forkert fordi \{{din\}} ikke længere er den rigtige tiltale når der er en enkelt sælger og boligtypen er et rækkehus.&#x20;
 {% endhint %}
 
-For at ændre på det kan I bruge flettekoderne {{Din/Dit}} samt {{din/dit}}.
+For at ændre på det kan I bruge flettekoderne \{{Din/Dit\}} samt \{{din/dit\}}.
 
 ```javascript
 Jeg har bemærket at {{din/dit}} {{boligtype}}.. 

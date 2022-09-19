@@ -1,11 +1,14 @@
 ---
-description: >-
-  Nedenstående flettekoder benyttes til sælgerbreve. Sælgerbrevene vil i 2021
-  overgå til en ny flettemotor, så disse koder vil blive opdateret/udgår på
-  sigt.
+description: Nedenstående flettekoder benyttes til sælgerbreve.
 ---
 
 # Introduktion
+
+
+
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
 
 ## Hvad er flettekoder?
 
@@ -18,7 +21,7 @@ Hej, mit navn er {{Navn}}.
 ```
 
 {% hint style="info" %}
-Flettekoder står altid skrevet inden imellem to tuborg tegn: {{her-er-en-flettekode}}.\
+Flettekoder står altid skrevet inden imellem to tuborg tegn: \{{her-er-en-flettekode\}}.\
 \
 Tryk Alt + Shift + 8 for "{"\
 eller Alt + Shift + 9 for "}"

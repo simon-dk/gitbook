@@ -1,8 +1,12 @@
 # Boligejeren
 
+{% hint style="danger" %}
+#### Disse flettekoder er udgået og bør ikke længere bruges. Vi har beholdt siden indtil alle nuværende kunder er blevet flyttet over på den nye dokumentmotor.
+{% endhint %}
+
 ## Herunder er flettekoder vedrørende boligejere
 
-Flettekoderne til at skrive ejernes fulde navne er hhv. {{Ejer1}} og {{Ejer2}}.
+Flettekoderne til at skrive ejernes fulde navne er hhv. \{{Ejer1\}} og \{{Ejer2\}}.
 
 ```javascript
 {{Ejer1}} // Hans Hansen
@@ -12,7 +16,7 @@ Flettekoderne til at skrive ejernes fulde navne er hhv. {{Ejer1}} og {{Ejer2}}.
 {{Ejer2}} // Grete Hansen
 ```
 
-Typisk vil navnene blive brugt i adressefeltet, så for ikke at få en tom linje kan man sætte {{Ejer2}} øverst som modtager. Hvis der kun er een ejer, vil adresseringen derved se rigtig ud.
+Typisk vil navnene blive brugt i adressefeltet, så for ikke at få en tom linje kan man sætte \{{Ejer2\}} øverst som modtager. Hvis der kun er een ejer, vil adresseringen derved se rigtig ud.
 
 ```javascript
 {{Ejer2}}              // tom eller Grete Hansen
@@ -21,7 +25,7 @@ Typisk vil navnene blive brugt i adressefeltet, så for ikke at få en tom linje
 {{Postnummer}} {{By}}  // 2800 Kongens Lyngby
 ```
 
-Man kan også refererer til ejernes fornavne ved blot at skrive {{Fornavn}}. Hvis der er to ejere skrives der automatisk "&" imellem.
+Man kan også refererer til ejernes fornavne ved blot at skrive \{{Fornavn\}}. Hvis der er to ejere skrives der automatisk "&" imellem.
 
 ```javascript
 Kære {{Fornavn}}, // Kære Hans, 
