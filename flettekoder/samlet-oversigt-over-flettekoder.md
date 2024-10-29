@@ -20,11 +20,16 @@ Skriv f.eks. {VEJNAVN} for at teksten i brevet skrives som "SKAGENSVEJ"
 
 ```javascript
 /** Modtageroplysninger */
-{fornavn}               //"Hanne" eller "Hanne og Per",
-{modtager}              //Modtagerfelt med navn, adresse og postnummer/by
-{modtager_adresse}      //Rådhusvej 5, 1. TH
-{modtager_postnummer}   //4000
-{modtager_by}           //Roskilde
+{fornavn}                   // "Hanne" eller "Hanne og Per",
+{modtager}                  // Modtagerfelt med navn, adresse og postnummer/by
+{modtager_adresse}          // Rådhusvej 5, 1. th
+{modtager_vejnavn}          // Rådhusvej
+{modtager_husnummer}        // 5
+{modtager_etage}            // 1
+{modtager_side}             // th
+{modtager_supplerende_by}   // Gundsølille
+{modtager_postnummer}       // 4000
+{modtager_by}               // Roskilde
 
 {#ental}Der er en modtager{/ental} 
 //Denne tekst kommer kun med hvis der er en enkelt modtager
@@ -33,15 +38,16 @@ Skriv f.eks. {VEJNAVN} for at teksten i brevet skrives som "SKAGENSVEJ"
 //Denne tekst kommer kun med hvis der er mere end 1 modtager
 
 /** Adresseoplysninger */
-{adresse}               //Skagensvej 4, 1. TH
-{vejnavn}               //Skagensvej
-{husnummer}             //4
+{adresse}               // Skagensvej 4, 1. TH
+{vejnavn}               // Skagensvej
+{husnummer}             // 4
 {etage}                 // 1
 {side}                  // TH
-{postnummer}            //9900
-{postnr}                //9900
-{by}                    //Skagen
-{bynavn}                //Skagen
+{postnummer}            // 9900
+{postnr}                // 9900
+{by}                    // Skagen
+{bynavn}                // Skagen
+{supplerendeBynavn}     // Gundsølille
 
 /** Titulering */
 {du}                    // "du" eller "I"
@@ -51,6 +57,12 @@ Skriv f.eks. {VEJNAVN} for at teksten i brevet skrives som "SKAGENSVEJ"
 {dig}                   // "dig" eller "jer"
 
 /** Boligen */
+{boligtype}             // "ejerlejlighed", "villalejlighed", "villa" osv.
+{boligtyper}            // "ejerlejligheder", "villalejligheder", "villaer" osv.
+{boligtypen}            // "ejerlejligheden", "villalejligheden", "villaen" osv.
+{boligtype_kort}        // "lejlighed", "hus", "sommerhus" osv.
+{boligtyper_kort}       // "lejligheder", "huse", "sommerhuse" osv. 
+{boligtypen_kort}       // "lejligheden", "huset", "sommerhuset" osv.
 {boligareal}            //"174"
 {værelser}              //"4"
 
