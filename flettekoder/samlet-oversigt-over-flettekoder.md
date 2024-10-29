@@ -47,6 +47,7 @@ Skriv f.eks. {VEJNAVN} for at teksten i brevet skrives som "SKAGENSVEJ"
 {postnr}                // 9900
 {by}                    // Skagen
 {bynavn}                // Skagen
+{postdistrikt}          // Skagen
 {supplerendeBynavn}     // Gundsølille
 
 /** Titulering */
